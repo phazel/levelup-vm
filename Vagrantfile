@@ -7,7 +7,7 @@
 # you're doing.
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "box-cutter/ubuntu1404-desktop"
 
   config.vm.provider "virtualbox" do |vb|
     vb.gui = true
